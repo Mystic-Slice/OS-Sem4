@@ -1,0 +1,13 @@
+GANTT CHART:
+1 P4 1 Process Complete
+2 P3 2
+4 P3 1 Process Complete
+5 P1 2
+7 P1 2 Process Complete
+9 P2 2
+11 P2 2
+13 P2 2
+15 P2 1 Process Complete
+
+Scheduling over at: 16
+Average Waiting Time: 1.25
