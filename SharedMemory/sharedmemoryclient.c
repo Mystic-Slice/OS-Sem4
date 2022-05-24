@@ -4,6 +4,7 @@
 #include <sys/shm.h>
 
 int client(int key) {
+	printf("Here");
     int shmid = shmget((key_t)key, 1024, IPC_CREAT | 0666);
 
     if(shmid < 0) {
@@ -19,6 +20,4 @@ int client(int key) {
     }
 
     printf("Message read by client: %s\n", (char*) shm);
-
-    exit(0);
 }

@@ -22,5 +22,4 @@ int server(int key) {
 
     strcpy(shm, "Hi! This is a message from the server!");
     printf("Message written by server: %s\n", shm);
-    exit(0);
 }
